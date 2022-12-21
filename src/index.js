@@ -21,5 +21,5 @@ app.use('/api', apiRoutes);
 app.set('PORT', 4000);
 
 app.listen(app.get('PORT'), ()=>{
-    console.log('server up');
+    console.log(`server up on port ${PORT}`);
 });
